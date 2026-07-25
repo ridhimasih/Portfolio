@@ -96,7 +96,7 @@ const Hero = () => {
           className="flex justify-center"
         >
           <img
-            src="/profile.jpg"
+            src="/profile.jpeg"
             alt="Ridhi Masih"
             className="w-72 h-72 md:w-96 md:h-96 rounded-full object-cover border-4 border-blue-500 shadow-2xl hover:scale-105 transition duration-300"
           />
