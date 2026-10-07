@@ -4,16 +4,12 @@ import {
   FaStar,
   FaCodeBranch,
   FaExclamationCircle,
-  FaCodeCommit,
 } from "react-icons/fa";
 import { GitHubCalendar } from "react-github-calendar";
 
 const GithubStats = () => {
   return (
-    <section
-      id="github"
-      className="bg-slate-950 text-white py-20 px-6"
-    >
+    <section id="github" className="bg-slate-950 text-white py-20 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
@@ -27,7 +23,6 @@ const GithubStats = () => {
           <h2 className="text-4xl font-bold text-blue-400">
             GitHub Stats
           </h2>
-
           <p className="text-gray-400 mt-3">
             My GitHub activity and contributions
           </p>
@@ -50,6 +45,7 @@ const GithubStats = () => {
 
             <div className="space-y-5 text-lg">
 
+              {/* Stars */}
               <div className="flex items-center gap-4">
                 <FaStar className="text-purple-400 text-2xl" />
                 <span className="font-semibold text-teal-400">
@@ -60,8 +56,9 @@ const GithubStats = () => {
                 </span>
               </div>
 
+              {/* Commits */}
               <div className="flex items-center gap-4">
-                <FaCodeCommit className="text-purple-400 text-2xl" />
+                <FaCodeBranch className="text-purple-400 text-2xl" />
                 <span className="font-semibold text-teal-400">
                   Total Commits:
                 </span>
@@ -70,6 +67,7 @@ const GithubStats = () => {
                 </span>
               </div>
 
+              {/* Pull Requests */}
               <div className="flex items-center gap-4">
                 <FaCodeBranch className="text-purple-400 text-2xl" />
                 <span className="font-semibold text-teal-400">
@@ -80,6 +78,7 @@ const GithubStats = () => {
                 </span>
               </div>
 
+              {/* Issues */}
               <div className="flex items-center gap-4">
                 <FaExclamationCircle className="text-purple-400 text-2xl" />
                 <span className="font-semibold text-teal-400">
@@ -90,12 +89,12 @@ const GithubStats = () => {
                 </span>
               </div>
 
+              {/* GitHub */}
               <div className="flex items-center gap-4">
                 <FaGithub className="text-purple-400 text-2xl" />
                 <span className="font-semibold text-teal-400">
                   GitHub:
                 </span>
-
                 <a
                   href="https://github.com/ridhimasih"
                   target="_blank"
@@ -118,7 +117,6 @@ const GithubStats = () => {
             className="bg-slate-800 p-8 rounded-2xl shadow-lg flex items-center justify-center"
           >
             <div className="text-center">
-
               <div className="text-6xl font-bold text-blue-400">
                 35
               </div>
@@ -130,7 +128,6 @@ const GithubStats = () => {
               <p className="text-teal-400 mt-3">
                 Jun 20, 2024 - Present
               </p>
-
             </div>
           </motion.div>
 
